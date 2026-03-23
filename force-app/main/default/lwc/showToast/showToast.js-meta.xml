@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>65.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Show Toast</masterLabel>
+    <targets>
+        <target>lightning__FlowScreen</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="type" type="String" label="Type" description="Toast type: info, success, warning, error" />
+            <property name="message" type="String" label="Message" description="Toast message body" />
+            <property name="title" type="String" label="Title" description="Toast title" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

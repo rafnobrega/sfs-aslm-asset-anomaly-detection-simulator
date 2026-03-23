@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomNotificationType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customNotifTypeName>RN_Asset_Anomaly_Alert</customNotifTypeName>
+    <description>Custom notification for asset anomaly alerts triggered by the Asset Anomaly Simulator flow.</description>
+    <desktop>true</desktop>
+    <masterLabel>RN_Asset Anomaly Alert</masterLabel>
+    <mobile>false</mobile>
+</CustomNotificationType>

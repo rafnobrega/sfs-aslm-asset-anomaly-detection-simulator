@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>RN_SFS_Asset_Anomaly_Simulator</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>showToast</members>
+        <members>SDO_Flow_showToast</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>RN_Asset_Anomaly_Alert</members>
+        <name>CustomNotificationType</name>
+    </types>
+    <version>65.0</version>
+</Package>
