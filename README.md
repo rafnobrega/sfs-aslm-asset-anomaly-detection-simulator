@@ -2,6 +2,10 @@
 
 A guided simulation flow that demonstrates how **Connected Assets** and **IoT-driven service automation** can automate alerts and Work Order creation in Salesforce Field Service.
 
+<p align="center">
+  <img src="assets/screenshot.png" alt="Asset Anomaly Detection Simulator" width="700"/>
+</p>
+
 ## Overview
 
 This flow allows a user to simulate an asset anomaly by updating an asset attribute with a new reading, evaluating that value against a defined threshold, and then automatically taking action if an anomaly is detected.
